@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="eng">
+      <UniqueIdentifier>{82d69511-e741-4870-8f1f-bd312c5c28dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework and pch">
+      <UniqueIdentifier>{164346bf-5d45-4f04-9f9e-6f0baa7c413c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eng\Engine.h">
+      <Filter>eng</Filter>
+    </ClInclude>
+    <ClInclude Include="eng\pch.h">
+      <Filter>framework and pch</Filter>
+    </ClInclude>
+    <ClInclude Include="eng\framework.h">
+      <Filter>framework and pch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="eng\Engine.cpp">
+      <Filter>eng</Filter>
+    </ClCompile>
+    <ClCompile Include="eng\pch.cpp">
+      <Filter>framework and pch</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
